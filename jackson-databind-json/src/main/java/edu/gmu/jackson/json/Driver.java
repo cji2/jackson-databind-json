@@ -20,6 +20,13 @@ public class Driver {
 			// print first name and last name.
 			System.out.println("First name = " + aStudent.getFirstName());
 			System.out.println("Last name = " + aStudent.getLastName());
+			
+			// print out address: street and city.
+			Address anAddress = aStudent.getAddress();
+			
+			System.out.println("Street = " + anAddress.street);
+			System.out.println("City = " + anAddress.city);
+			
 		}
 		catch (Exception exc){
 			exc.printStackTrace();
