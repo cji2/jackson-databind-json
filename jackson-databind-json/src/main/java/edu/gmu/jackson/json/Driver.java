@@ -27,6 +27,10 @@ public class Driver {
 			System.out.println("Street = " + anAddress.street);
 			System.out.println("City = " + anAddress.city);
 			
+			// print out languages.
+			for (String aLang : aStudent.getLanguages()) 
+				System.out.println(aLang);
+			
 		}
 		catch (Exception exc){
 			exc.printStackTrace();
